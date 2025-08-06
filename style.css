@@ -1,6 +1,27 @@
-.body{
+#height{
     display:Arial;
     align-items:Center;
     gap:10px;
 
 }
+#weight{
+    display:Arial;
+    align-items:Center;
+    gap:10px;
+
+}
+.resultBox {
+    margin-top: 15px;
+    padding: 15px;
+    width: 300px;
+    height: 50px;
+    border: 2px solid #000;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  

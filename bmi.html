@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <div class="header">
+       
             BMI Calculator
-        </div>
+    
     </head>
     <body>
-       <div class="body">
+       
         <h1>Height</h1>
-        <input type="text" placeholder="Enter height in cm">
+        <input  id= "height" type="text" placeholder="Enter height in cm">
 
-       <div class="body">
+    
         <h1>Weight</h1>
-        <input type="text" placeholder="Enter weight in kgs">
-       </div>
-       <div class="body">
-        <h1>
-            BMI
-        </h1>
+        <input id="weight" type="text" placeholder="Enter weight in kgs">
+      
+       <h1>BMI</h1>
+       
+       <!-- have to style it in css i.e it is an empy box right now not on the website-->
         
-       </div>
+
+    
+    
+    <button onclick="calculateBMI()">Calculate</button>
+    <div class="resultBox">BMI result</div>
+    <script src="script.js"></script>
+
+
+
+
+        
+       
 
     </body>
 </html>
